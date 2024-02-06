@@ -1,0 +1,69 @@
+.react-flow__handle {
+    visibility: hidden;
+}
+
+.react-flow__edge-text{
+    font-family: var(--tblr-body-font-family);
+    /*font-size: var(--tblr-body-font-size);*/
+    font-weight: var(--tblr-body-font-weight);
+    line-height: var(--tblr-body-line-height);
+}
+
+.flow-edge .react-flow__edge-path{
+    stroke: var(--tblr-border-color-translucent) !important;
+    stroke-width: 2;
+}
+
+.flow-edge-dashed .react-flow__edge-path{
+    stroke-dasharray: 5,5;
+}
+
+.flow-edge-orange .react-flow__edge-path{
+    stroke: var(--tblr-orange) !important;
+}
+
+.flow-edge-green .react-flow__edge-path{
+    stroke: var(--tblr-green) !important;
+}
+
+.flow-node{
+    font-family: var(--tblr-body-font-family);
+    font-size: var(--tblr-body-font-size);
+    font-weight: var(--tblr-body-font-weight);
+    line-height: var(--tblr-body-line-height);
+    border: 1px solid var(--tblr-border-color-translucent);
+    border-radius: var(--tblr-border-radius);
+    color: var(--tblr-blue);
+    background-color: rgba(var(--tblr-blue-rgb),.1);
+    cursor: pointer;
+}
+.flow-node-green{
+    color: var(--tblr-green);
+    background-color: rgba(var(--tblr-green-rgb),.1);
+}
+
+.flow-node-red{
+    color: var(--tblr-red);
+    background-color: rgba(var(--tblr-red-rgb),.1);
+}
+
+.flow-node-dark{
+    color: var(--tblr-dark);
+    background-color: rgba(var(--tblr-dark-rgb),.1);
+}
+
+/*.icon-timer{*/
+/*    !*width: 30px;*!*/
+/*    !*height: 30px;*!*/
+/*    color: var(--tblr-body-color);*/
+/*    background-color: #fff;*/
+/*    font-family: var(--tblr-body-font-family);*/
+/*    font-size: 11px;*/
+/*    font-weight: var(--tblr-body-font-weight);*/
+/*    line-height: var(--tblr-body-line-height);*/
+/*}*/
+
+
+/*.react-flow__node.selected{*/
+/*    box-shadow: 0 0 0 .25rem rgba(32,107,196,.25) !important;*/
+/*}*/
